@@ -1,0 +1,1 @@
+Creaing a stactic library
