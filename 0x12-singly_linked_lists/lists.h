@@ -2,12 +2,18 @@
 #define LISTS_H
 
 #include <stddef.h>
-
+/**
+* struct list_s - singly linked list
+* @str: string (malloced string)
+* @len: length of the string
+* @next: pointer to the next node 
+*/
 typedef struct list_s {
 char *str;
-unsigned int len;
+size_t len;
 struct list_s *next;
 } list_t;
+
 int _putchar(char c);
 size_t print_list(const list_t *h);
 size_t list_len(const list_t *h);
