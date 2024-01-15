@@ -1,0 +1,51 @@
+#include <stdio.h>
+/**
+* add - add two integers
+* @a: first int
+* @b: second int
+* Return: addition answer
+*/
+Int add(int a, int b)
+{
+return (a + b);
+}
+/**
+* sub - subtract two integers
+* @a: first int
+* @b: second int
+* Return: subtracted  final answer
+*/
+Int sub(int a, int b)
+{
+return (a - b);
+}
+/**
+* div - divide two integers
+* @a: first int
+* @b: second int
+* Return: division answer
+*/
+Int div(int a, int b)
+{
+return (a / b);
+}
+/**
+* mod - mod of two integers
+* @a: first int
+* @b: second int
+* Return: final answer
+*/
+Int mod(int a, int b)
+{
+return (a % b);
+}
+/**
+* mul - multiply two integers
+* @a: first int
+* @b: second int
+* Return: multiply 
+*/
+Int mul(int a, int b)
+{
+return (a * b);
+}
